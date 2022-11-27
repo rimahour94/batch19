@@ -46,3 +46,5 @@ log(class1);
 //     console.log(str);
 //   },
 // };
+
+console.log("Batch 19 TRISECT ");
