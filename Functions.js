@@ -1,49 +1,44 @@
-// regular function
+// regular functions
+// task 1
 
-// Syntax
-
-// function functionName() {
-//   // task...
-// }
-
-function add(num1, num2) {
-  //   const num1 = 40;
-  //   const num2 = 10;
-  const sum = num1 + num2;
-  return {
-    sum: sum,
-  };
+function addition(num1, num2) {
+  return num1 + num2;
 }
 
-// const a = new add(2, 3);
+// task 2
+function multiplication(num3, num4) {
+  // let num3 = 3;
+  // let num4 = 17;
 
-// console.log(a);
-
-function display() {
-  const output = add(2, 3);
-  console.log(output, "line 18");
+  let sum1 = num3 * num4;
+  return sum1;
+  // console.log(sum1);
 }
 
-function display1() {
-  const output = add(4, 5);
-  console.log(output, "line 23");
-}
-display();
+let output1 = addition(2, 3);
 
-display1();
+let output2 = addition(5, 10);
 
-// Arrow Function
+let output3 = multiplication(3, 5);
+let output4 = multiplication(6, 5);
 
-// Syntax:
+console.log(output1, output2, output3, output4);
 
-// const funName = ()=>{
-//  task.....
-// };
+// arrow function
 
-const addArrow = (num1, num2) => num1 + num2;
+const substraction = (num1, num2) => num1 - num2;
 
-const arrowOutput = addArrow(19, 1);
+const square = (a) => a * a;
 
-console.log(arrowOutput);
+const sub = substraction(45, 40);
+console.log(sub);
 
-// console.log(dt, "51");
+const sq = square(7);
+console.log(sq);
+
+const obj = new addition(6, 9);
+
+console.log(obj);
+
+const objArrow = new square(5);
+console.log(objArrow);
